@@ -13,7 +13,7 @@ public class TC_AddReferralTest extends BaseClass {
 	@Test
 	public void addReferral() throws InterruptedException
 	{
-		driver.manage().window().maximize();
+		// Login By Admin
 		
 		driver.manage().window().maximize();
 		loginPage page = new loginPage(driver);
