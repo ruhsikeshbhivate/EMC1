@@ -20,7 +20,8 @@ public class TC_AddReferralTest extends BaseClass {
 		page.enterUsername("sagar_admin");
 		page.enterPassword("sagar_admin");
 		page.clickOnLoginButton();
-		
+
+		//Login Succesfully
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		dashboardPage dashPage = new dashboardPage(driver);
 		dashPage.clickOnAddReferral();
